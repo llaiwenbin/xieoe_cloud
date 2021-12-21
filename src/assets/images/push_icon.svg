@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>push_icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="确定" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="应用管理中心-应用信息" transform="translate(-692.000000, -1147.000000)">
+            <g id="内容区" transform="translate(40.000000, 120.000000)">
+                <g id="活动信息备份-3" transform="translate(40.000000, 933.000000)">
+                    <g id="编组-3备份-2" transform="translate(536.000000, 80.000000)">
+                        <g id="编组-4" transform="translate(52.000000, 14.000000)">
+                            <g id="消息推送" transform="translate(37.000000, 11.000000)">
+                                <rect id="矩形" fill="#333333" x="6" y="11" width="20" height="2" rx="1"></rect>
+                                <rect id="矩形备份" fill="#333333" x="6" y="19" width="12" height="2" rx="1"></rect>
+                                <path d="M18,42 L18,42 L2,42 C0.8954305,42 0,41.1045695 0,40 L0,2 C0,0.8954305 0.8954305,0 2,0 L2,0 L34,0 C35.1045695,0 36,0.8954305 36,2 L36,14 L36,14" id="路径" stroke="#333333" stroke-width="2" stroke-linecap="round"></path>
+                                <polygon id="路径-4" stroke="#105CFB" stroke-width="2" stroke-linejoin="round" points="38.5 21 30.171428 42 26 34.0261619 18 29.9171384"></polygon>
+                                <line x1="26" y1="34.0261619" x2="32.0175331" y2="28.0236915" id="路径-5" stroke="#105CFB" stroke-width="2" stroke-linecap="round"></line>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

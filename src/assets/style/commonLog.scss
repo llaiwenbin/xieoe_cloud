@@ -1,0 +1,127 @@
+
+$success: 'success';
+$fail: 'fail';
+$push: 'push';
+
+$status: (
+    $success: #11d611,
+    $fail: #ff2929,
+    $push: #1472ff,
+);
+
+.common_div {
+    background-color: #fff;
+    padding: 16px;
+    .el-form {
+        background-color: #f5f5f5;
+        padding: 16px 30px 0px;
+    }
+    .ML100 {
+        margin-left: 100px;
+    }
+    // .el-form--inline .el-form-item {
+    //     display: flex;
+    //     margin-bottom: 16px;
+    // }
+    // .el-form--inline .el-form-item__content {
+    //     flex: 1;
+    // }
+    // .el-date-editor {
+    //     width: 100%;
+    // }
+    // .el-select {
+    //     width: 100%;
+    // }
+
+
+    /** table自定义样式 **/
+    :deep .self-table {
+        margin-top: 16px;
+        .el-table__header-wrapper {
+            th {
+                background-color: #f5f5f5;
+            }
+        }
+    }
+
+    /** 分页自定义样式 **/
+    :deep .el-pagination {
+        margin-top: 16px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+     /** dialog自定义样式 **/
+    :deep .self-dialog {
+        .el-dialog__body {
+            border-top: 1px solid #eee;
+            padding: 16px 24px;
+            height: 60vh;
+            overflow-y: auto;
+        }
+        .dialog-res {
+            background-color: #f5f5f5;
+            padding: 1px 16px;
+            margin-bottom: 24px;
+            .open-doc a {
+                color: #1472ff;
+            }
+            &.res-item {
+                padding: 16px 10px;
+                span {
+                    display: inline-block;
+                    + span {
+                        margin-left: 16px;
+                    }
+                }
+            }
+        }
+    
+        .dialog-item {
+            margin-bottom: 10px;
+            .dialog-title {
+                background-color: #f5f5f5;
+                padding: 0 16px;
+                height: 40px;
+                line-height: 40px;
+            }
+            .dialog-content {
+                padding: 0 16px;
+            }
+            .base-info {
+                p {
+                    display: flex;
+                    :first-child {
+                        width: 70px;
+                        text-align: right;
+                    }
+                    :last-child {
+                        flex: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@each $sts in $status {
+    $key: nth($sts, 1);
+    $value: nth($sts, 2);
+
+    .#{$key}-status {
+        position: relative;
+        padding-left: 10px;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            border-radius: 3px;
+            background-color: $value;
+            left: 0;
+            top: 50%;
+            margin-top: -3px;
+        }
+    }
+}

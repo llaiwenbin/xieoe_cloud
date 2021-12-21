@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>api_icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="确定" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="应用管理中心-应用信息" transform="translate(-452.000000, -1147.000000)">
+            <g id="内容区" transform="translate(40.000000, 120.000000)">
+                <g id="活动信息备份-3" transform="translate(40.000000, 933.000000)">
+                    <g id="编组-3备份" transform="translate(296.000000, 80.000000)">
+                        <g id="编组-4" transform="translate(69.000000, 14.000000)">
+                            <g id="接口" transform="translate(18.000000, 13.000000)">
+                                <path d="M42,30 L42,36 C42,37.1045695 41.1045695,38 40,38 L2,38 C0.8954305,38 0,37.1045695 0,36 L0,2 C0,0.8954305 0.8954305,0 2,0 L2,0 L40,0 C41.1045695,0 42,0.8954305 42,2 L42,13 L42,13" id="路径" stroke="#333333" stroke-width="2" stroke-linecap="round"></path>
+                                <rect id="矩形" fill="#333333" x="0" y="7" width="42" height="2" rx="1"></rect>
+                                <polyline id="路径-2" stroke="#105CFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="33.155 14.1865625 42 21.8820625 33.155 29.4642485"></polyline>
+                                <polyline id="路径-2备份" stroke="#105CFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(13.422500, 21.638843) scale(-1, 1) translate(-13.422500, -21.638843) " points="9 14 17.845 21.6955 9 29.277686"></polyline>
+                                <line x1="27.5" y1="11.2180456" x2="22.8970677" y2="32.5460794" id="路径-3" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

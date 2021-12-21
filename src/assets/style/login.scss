@@ -1,0 +1,217 @@
+.account-login-wrapper {
+	margin-top: 50px;
+	a {
+		color: #999;
+		font-size: 12px;
+		&:hover {
+			color: #2a75ed;
+		}
+	}
+	.account-input-item {
+		margin-bottom: 32px;
+	}
+	.account-input-list .account-input-item:last-child {
+		margin-bottom: 25px;
+	}
+	.account-operate {
+		position: absolute;
+		// bottom: 175px;
+		display: flex;
+		align-items: center;
+		margin: 0;
+		width: 360px;
+		.remind-pwd {
+			position: relative;
+			padding-top: 1px;
+		}
+		a {
+			color: #666666;
+			font-size: 12px;
+		}
+	}
+	p.account-operate {
+		justify-content: space-between;
+	}
+	div.account-operate {
+		justify-content: flex-end;
+	}
+	.login-btn {
+		position: absolute;
+		bottom: 69px;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-top: 0;
+		width: 360px;
+		height: 48px;
+		line-height: 48px;
+		font-size: 16px;
+		text-align: center;
+		border-radius: 4px;
+		cursor: pointer;
+		color: #fff;
+		background-color: #105cfb;
+		outline: none;
+		transition: all 100ms ease;
+		&:hover {
+			background-color: #136ffe;
+		}
+	}
+	.login-btn-disable {
+		color: #bbb;
+		background: #f8f8f8;
+		border: 1px solid #e5e5e5;
+		cursor: not-allowed;
+		&:hover {
+			background-color: #f8f8f8;
+		}
+	}
+	.account-des {
+		position: absolute;
+		bottom: 86px;
+		left: 50%;
+		transform: translateX(-50%);
+		margin: 0;
+		text-align: center;
+		color: #666;
+		font-size: 13px;
+		a {
+			color: #105cfb;
+			font-size: 13px;
+		}
+	}
+	.slide-wrapper {
+		position: absolute;
+		bottom: 130px;
+		left: 60px;
+		z-index: 10;
+		display: flex;
+		justify-content: center;
+		padding-top: 25px;
+		width: 380px;
+		height: 270px;
+		background: rgba(255, 255, 255, 1);
+		box-shadow: 0px 0px 10px 0px rgba(115, 115, 115, 0.2);
+		border-radius: 4px;
+		&::before {
+			position: absolute;
+			bottom: -5px;
+			left: 50%;
+			z-index: 5;
+			content: "";
+			width: 12px;
+			height: 12px;
+			background-color: #fff;
+			box-shadow: 1px 1px 2px -1px rgba(115, 115, 115, 0.2);
+			transform: translateX(-50%) rotate(45deg);
+		}
+		.slide-img {
+			position: absolute;
+			top: 11px;
+			right: 11px;
+			width: 16px;
+			height: 16px;
+			cursor: pointer;
+		}
+	}
+	.verify-code-wrapper {
+		position: absolute;
+		bottom: 130px;
+		left: 60px;
+		z-index: 10;
+		padding: 20px;
+		width: 380px;
+		height: 195px;
+		background: rgba(255, 255, 255, 1);
+		box-shadow: 0px 0px 10px 0px rgba(115, 115, 115, 0.2);
+		border-radius: 4px;
+		&::before {
+			position: absolute;
+			bottom: -5px;
+			left: 50%;
+			z-index: 5;
+			content: "";
+			width: 12px;
+			height: 12px;
+			background-color: #fff;
+			box-shadow: 1px 1px 2px -1px rgba(115, 115, 115, 0.2);
+			transform: translateX(-50%) rotate(45deg);
+		}
+		.verify-code-close-img {
+			position: absolute;
+			top: 11px;
+			right: 11px;
+			width: 16px;
+			height: 16px;
+			cursor: pointer;
+		}
+		.verify-code-text {
+			margin: 0;
+			margin-bottom: 20px;
+			color: #333;
+			font-size: 16px;
+		}
+		.verify-code-input-box {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.verify-code-input {
+			padding: 15px 12px;
+			width: 216px;
+			height: 50px;
+			background: rgba(255, 255, 255, 1);
+			border: 1px solid rgba(212, 217, 226, 1);
+			color: #333;
+			font-size: 20px;
+			outline: none;
+		}
+		.verify-code-img {
+			width: 104px;
+			height: 50px;
+			cursor: pointer;
+		}
+		.verify-code-error {
+			margin: 0;
+			margin-top: 10px;
+			color: #ff3366;
+			font-size: 12px;
+		}
+		.verify-code-btn {
+			position: absolute;
+			bottom: 20px;
+			right: 20px;
+			width: 104px;
+			height: 40px;
+			line-height: 40px;
+			background: rgba(16, 92, 251, 1);
+			border-radius: 4px;
+			text-align: center;
+			color: #fff;
+			font-size: 16px;
+			cursor: pointer;
+			&:hover {
+				background-color: #136ffe;
+			}
+		}
+	}
+	.verify-des {
+		position: absolute;
+		bottom: 20px;
+		left: 50%;
+		transform: translateX(-50%);
+		margin: 0;
+		text-align: center;
+		color: #666;
+		font-size: 13px;
+		a {
+			color: #105cfb;
+			font-size: 13px;
+		}
+	}
+	:deep .el-checkbox__label {
+		font-size: 12px;
+	}
+	:deep .el-checkbox__input.is-checked+.el-checkbox__label {
+		color: #666666;
+	}
+}

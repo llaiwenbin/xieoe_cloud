@@ -1,0 +1,9 @@
+// dev_key_set.vue
+.dev-key-set {
+
+    .el-checkbox__input.is-checked .el-checkbox__inner,
+    .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+        background-color: #2a75ed;
+        border-color: #2a75ed;
+    }
+}
